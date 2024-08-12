@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        border: 1px solid black;
+        height: 200vh;
+        width: 96vw;
+        padding: 1px;
+      }
+      .nav {
+        border: 1px solid white;
+        
+        width: 99%;
+        /* margin-top: 1%; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .menu {
+        border: 1px solid white;
+        height: 70%;
+        width: 5%;
+        align-content: center;
+        
+      }
+      .line {
+        border: 1px solid black;
+        margin: 5px;
+        /* position: fixed; */
+      }
+      .bdy {
+        border: 1px solid black;
+        height: 50%;
+        width: 99%;
+        margin-top: 5px;
+        padding: 0.5%;
+      }
+      .side {
+        border: 1px solid black;
+        height: 5%;
+        width: 99%;
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+      }
+      .cnt {
+        border: 1px solid black;
+        height: 30%;
+        width: 99%;
+      }
+      .footer {
+        border: 1px solid black;
+        width: 99%;
+        height: 10%;
+      }
+      .md {
+        border: 1px solid black;
+        height: 93%;
+        width: 99%;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2px;
+        padding: 2px;
+      }
+      .child{
+        border:1px solid black;
+
+      }
+      img{
+        height: 70%;
+        width: 100%;
+      }
+      .text1{
+        border: 1px solid black;
+        height: 30%;
+      }
+       
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <div class="menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="MF">MY FOOD</div>
+        <div class="mail">MAIL</div>
+      </div>
+      <div class="bdy">
+        <div class="md">
+            <div class="child c1">
+                <img src="../multimedia/images/sandwich.jpg" />
+                <div class="text1" >
+                    <div class="heading">
+                        <b>The Perfect Sandwich, <br>A Real NYC Classic </b>
+                    </div>
+                    <div>
+                        Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.  
+                    </div>
+                    <!-- <p id="1">The Perfect Sandwich, <br>A Real NYC Classic<br>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+                </div>
+            </div>
+            <div class="child c2" ></div>
+            <div class="child c3"></div>
+            <div class="child c4"></div>
+            <div class="child c5"></div>
+            <div class="child c6"></div>
+            <div class="child c7"></div>
+            <div class="child c8"></div>
+        </div>
+        <div class="side"></div>
+      </div>
+      <hr />
+      <div class="cnt"></div>
+      <hr />
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>

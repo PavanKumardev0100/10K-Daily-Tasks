@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .md {
+        background-color: rgba(28, 28, 145, 0.822);
+        border: 1px solid black;
+        display: grid;
+        padding: 25px;
+        grid-template-columns: 100px 100px 100px 100px;
+        grid-template-rows: 100px 100px ;
+        grid-auto-rows: 150px;
+        gap:5px;
+        width:fit-content;
+        
+      }
+      .child {
+        background-color: chocolate;
+        font-size: 20px;
+        text-align: center;
+      }
+      .c1{
+        grid-row: 1/4;
+      }
+      .c2{
+        grid-column:2/4;
+
+      }
+      .c6{
+        grid-column-start: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+      }
+      .c1, .c2, .c6{
+        background-color: rgba(13, 245, 13, 0.973);
+      }
+      .c3, .c5, .c7{
+        background-color: rgba(255, 0, 0, 0.966);
+      }
+      .c4, .c8{
+        background-color: yellow
+      }
+      .cnt1{
+        background-color: rgba(28, 28, 145, 0.822);
+        border: 1px solid black;
+        display: grid;
+        padding: 25px;
+        grid-template-columns: 100px 100px 100px ;
+        grid-template-rows: 100px 100px ;
+        grid-auto-rows: 150px;
+        gap:5px;
+        width:fit-content;
+        margin-top: 10px;
+      }
+      .class2{
+            border:1px solid black;
+            background-color: antiquewhite;
+      }
+      .c16{
+        grid-column: 2/4;
+        grid-row: 2/4;
+        background-color: greenyellow;
+      }
+      .c11{
+        background-color: rgba(66, 207, 153, 0.904);
+      }
+      .c12{background-color: coral;}
+      .c15{
+        background-color: darkkhaki;
+      }
+      .c14, .c13{
+        background-color: crimson;
+      }
+      .cnt2{
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 100px  100px 100px 100px 100px 100px;
+        grid-template-rows: 100px 100px;
+        grid-gap: 5px;
+        width:fit-content;
+        padding:15px;
+      }
+      .class3{
+        border: 1px solid black;
+      }
+      .a2{
+            grid-column: 2/4;
+            background-color: blueviolet;
+      }
+      .a4{
+        grid-row: 1/3;
+        grid-column: 5/5;
+        background-color: rgba(243, 142, 18, 0.986);
+      }
+      .a6{
+        grid-column: 7/9;
+        grid-row: 1/3;
+        background-color: aqua;
+      }
+      .a8{
+        grid-area: 2/2/2/5;
+        background-color: darkcyan;
+      }
+      .a5{
+        background-color:rgba(153, 0, 255, 0.411);
+        grid-area: 1/6/3/7;
+      }
+      .a7{
+        background-color: red;
+      }
+      .a1, .a3{
+        background-color: rgb(0, 136, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bdy">
+        <div class="md">
+            <div class= " child c1"></div>
+            <div class="child c2"></div>
+            <div class="child c3"></div>
+            <div class="child c4"></div>
+            <div class="child c5"></div>
+            <div class="child c6"></div>
+            <div class="child c7"></div>
+            <div class="child c8"></div>
+        </div>
+        <div class="cnt1">
+            <div class="class2 c11">1</div>
+            <div class="class2 c12">2</div>
+            <div class="class2 c13">6</div>
+            <div class="class2 c14">4</div>
+            <div class="class2 c15">5</div>
+            <div class="class2 c16">3</div>
+        </div>
+
+        <div class="cnt2">
+            <div class="class3 a1">1</div>
+            <div class="class3 a2">2</div>
+            <div class="class3 a3">3</div>
+            <div class="class3 a4">4</div>
+            <div class="class3 a5">5</div>
+            <div class="class3 a6">6</div>
+            <div class="class3 a7">7</div>
+            <div class="class3 a8">8</div>
+        </div>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration form</legend>
+        <label for="fname">Enter first name: </label>
+        <input type="text" id="fname" name="f-name" required><br><br>
+        <label>Enter last name:</label>
+        <input type="text" id="lname" name="l-name"><br><br>
+        <label for="mail">Enter mail address:</label>
+        <input type="mail" id="mail" name="email" required placeholder="eg:xyz@gmail.com"><br><br>
+        <label for="Mob">Phone no:</label>
+        <input type="number" id="Mob" name="Tel" pattern="[0-9]{10}"><br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" required ><br><br>
+        <p>Select Gender:</p>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" checked>
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="male">others</label>
+        <input type="radio" id="others" name="gender"><br><br>
+        <label for="DOB">DOB:</label><br>
+        <input type="date" id="DOB" name="DOB"><br><br>
+        <label for="myfile">select a file:</label>
+        <input type="file" id="myfile" name="myfile" multiple><br><br>
+        <input type="color">
+
+        <p>Hobbies</p>
+        <input type="Checkbox" id="car1" name="car1">
+        <label for="C1">Cricket</label>
+        <input type="Checkbox" id="car2" name="car2">
+        <label for="car2"> Music  </label>
+        <input type="Checkbox" id="car3" name="car3">
+        <label for="car3">Travelling</label><br><br>
+        <label for="week">select a week:</label>
+        <input type="week" id="week" name="week"><br><br>
+        <label for="reviews">Reviews:</label>
+        <textarea id="reviews" name="reviews"></textarea>
+        <br><br><input type="submit" value="submit">
+        <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>

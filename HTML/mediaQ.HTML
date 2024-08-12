@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @media screen and (min-width: 520px) {
+        .main{
+            display: flex;
+            justify-content: center;
+        }
+        .md {
+          border: 1px solid black;
+          height: 60vh;
+          width: 60vw;
+          padding: 5px;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          background-color: aquamarine;
+        }
+        .nav {
+          border: 1px solid black;
+          height: 15%;
+          background-color: rgb(181, 197, 31);
+        }
+        .bdy {
+          border: 1px solid black;
+          height: 65%;
+          display: flex;
+          padding: 5px;
+          gap: 5px;
+          background-color: goldenrod;
+        }
+        .foot {
+          border: 1px solid black;
+          height: 15%;
+          background-color: blueviolet;
+        }
+        .cnt1 {
+          border: 1px solid black;
+          height: 95%;
+          width: 25%;
+          background-color: beige;
+        }
+        .cnt2 {
+          border: 1px solid black;
+          height: 95%;
+          width: 50%;
+          background-color: burlywood;
+        }
+        .cnt3 {
+          border: 1px solid black;
+          height: 95%;
+          width: 25%;
+          background-color: cadetblue;
+        }
+      }
+      @media screen and (min-width: 100px) and (max-width: 520px){
+        .main{
+            display: flex;
+            justify-content: center;
+        }
+        .md {
+          border: 1px solid black;
+          height: 60vh;
+          width: 60vw;
+          padding: 5px;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          background-color: rgb(199, 56, 51);
+        }
+        .nav {
+          border: 1px solid black;
+          height: 15%;
+          background-color: rgb(181, 197, 31);
+        }
+        .bdy {
+          border: 1px solid black;
+          height: 65%;
+          display: flex;
+          flex-direction: column;
+          padding: 5px;
+          gap: 5px;
+          background-color: goldenrod;
+        }
+        .foot {
+          border: 1px solid black;
+          height: 15%;
+          background-color: blueviolet;
+        }
+        .cnt1 {
+          border: 1px solid black;
+          height: 95%;
+          width: auto;
+          background-color: beige;
+        }
+        .cnt2 {
+          border: 1px solid black;
+          height: 95%;
+          width: auto;
+          background-color: burlywood;
+        }
+        .cnt3 {
+          border: 1px solid black;
+          height: 95%;
+          width: auto;
+          background-color: cadetblue;
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="md">
+        <div class="nav"></div>
+        <div class="bdy">
+          <div class="cnt1">1</div>
+          <div class="cnt2">2</div>
+          <div class="cnt3">3</div>
+        </div>
+        <div class="foot"></div>
+      </div>
+    </div>
+  </body>
+</html>
